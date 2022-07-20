@@ -4,9 +4,10 @@ public class Soma {
 
           int a , b ,c = 0;
           Scanner Scanner = new Scanner(System.in);
-          System.out.println("Introduza os numeros: ");
 
+          System.out.println("Insira o primeiro numero: ");
           a = Scanner.nextInt();
+          System.out.println("Insira o segundo numero: ");
           b = Scanner.nextInt();
           c = a + b;
 
